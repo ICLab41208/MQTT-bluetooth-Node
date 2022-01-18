@@ -8,9 +8,13 @@ broker端主要為透過藍芽通訊接收來自Node端的資料後再自行到M
 Node端主要為使用dht11溫溼度感測器，再將數值藉由Bluetooth通訊傳輸至broker端
 
 先更新系統
+
 sudo apt-get update
+
 sudo apt-get install python3-pip
+
 sudo apt-get install python3-dev python3-pip
+
 sudo python3 -m pip install --upgrade pip setuptools wheel
 
 
@@ -33,6 +37,7 @@ sudo apt-get install libbluetooth-dev
 sudo pip3 install pybluez
 
 Node端 額外安裝 依賴件↓  #DHT11感測器
+
 1.sudo pip3 install Adafruit_DHT
 
 安裝完成後，Node端 程式內需要修改 broker端的bluetooth address 
