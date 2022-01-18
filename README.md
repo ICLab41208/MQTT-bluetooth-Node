@@ -38,7 +38,7 @@ sudo pip3 install pybluez
 
 Node端 額外安裝 依賴件↓  #DHT11感測器
 
-1.sudo pip3 install Adafruit_DHT
+sudo pip3 install Adafruit_DHT
 
 安裝完成後，Node端 程式內需要修改 broker端的bluetooth address 
 
