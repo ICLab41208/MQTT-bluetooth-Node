@@ -17,12 +17,15 @@ sudo python3 -m pip install --upgrade pip setuptools wheel
 安裝依賴件↓  broker 與Node端階需要安裝
 
 1.安裝Mosquitto (MQTT)
+
 sudo apt-get install mosquitto mosquitto-clients
 
 2.安裝 bt-proximity 顯示RSSI訊號強度
+
 sudo pip install bt-proximity
 
 3.安裝藍芽依賴套件
+
 sudo apt-get install Python-dev
 
 sudo apt-get install libbluetooth-dev
