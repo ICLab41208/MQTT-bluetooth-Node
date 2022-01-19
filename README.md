@@ -25,7 +25,7 @@ sudo python3 -m pip install --upgrade pip setuptools wheel
 ```
 sudo apt-get install mosquitto mosquitto-clients
 ```
-2.###安裝 bt-proximity 顯示RSSI訊號強度
+2.安裝 bt-proximity 顯示RSSI訊號強度
 ```
 sudo pip install bt-proximity
 ```
